@@ -55,10 +55,9 @@ deploy:
             } || 
             {
               echo "Repository sudah ada. Building...";
-              cd ~/senpro/456848/modul01/senpro-github-action
-              git restore .
-              git pull origin main
-              npm install
-              npm run build
-
+              cd ~/senpro/456848/modul01/senpro-github-action;
+              git restore .;
+              git pull origin main;
+              npm install;
+              npm run build;
             }
