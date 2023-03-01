@@ -40,7 +40,7 @@ deploy:
         port: ${{ secrets.PORT }}
         script: 
           eval "$(ssh-agent -s)"
-          ssh-add ~/.ssh/senpro-ssh
+          ssh-add ~/.ssh/senpro-ssh-23
           cd ~/senpro/456848/modul01/senpro-github-action
           git restore .
           git pull origin main
